@@ -45,7 +45,7 @@ public class Hook extends BaseUtil{
             //Take screenshot logic goes here
             System.out.println(scenario.getName());
         }
-        System.out.println("Closing the browser : MOCK");
+        System.out.println("Open the browser : MOCK");
         base.Driver.quit();
     }
 
